@@ -1,0 +1,20 @@
+.btn{
+    background-color: green;
+    border: none;
+    outline: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    color: white;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+    transition-property: all;
+    transition-duration: 0.6s;
+    transition-timing-function: ease;
+}
+
+.btn:hover{
+    color: green;
+    background-color: white;
+    border: 2px solid green;
+}
